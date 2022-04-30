@@ -35,3 +35,7 @@ dependencies {
     testImplementation("io.ktor:ktor-client-content-negotiation:$ktor_version")
     testImplementation("org.assertj:assertj-core:3.22.0")
 }
+
+tasks {
+    create("stage").dependsOn("installDist")
+}
