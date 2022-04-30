@@ -1,1 +1,1 @@
-web: ./build/install/fit-buddy-app-server/bin/fit-buddy-app-server
+web: ./build/install/fit-buddy-app-server/bin/fit-buddy-server
